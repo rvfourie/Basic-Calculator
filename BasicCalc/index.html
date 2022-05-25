@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Basic Calculator</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="first webpage, HTML, CSS, JavaScript, practice, random elements">
+<meta name="description" content="Fourie's Basic Calculator">
+<meta name="author" content="Richard Fourie">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="jss.js"></script>
+<script src="jss2.js"></script>
+
+<style>
+</style>
+</head>
+<body>
+<div>
+    <div class="toprow">
+        <div class="screen" id="working">Working</div>
+        <div class="screen" id="result">Result</div>
+    </div>
+</div>
+<br/>
+<div>
+    <div class="inputs">
+        <div id="first"></div>
+        <div id="second"></div>
+    </div>
+</div>
+<br/>
+    <div class="grid-container">
+        <button type="button" class="grid-item" id="button1" onlick="javascript: add ();">1</button>
+        <button type="button" class="grid-item" id="button2">2</button>
+        <button type="button" class="grid-item" id="button3">3</button>
+        <button type="button" class="grid-item" id="button4">4</button>
+        <button type="button" class="grid-item" id="button5">5</button>
+        <button type="button" class="grid-item" id="button6">6</button> 
+        <button type="button" class="grid-item" id="button7">7</button>
+        <button type="button" class="grid-item" id="button8">8</button>
+        <button type="button" class="grid-item" id="button9">9</button>
+    </div>
+<br/>
+
+      <div class="operators">
+        <button type="button" class="operator-item">+</button>
+        <button type="button" class="operator-item">-</button>
+        <button type="button" class="operator-item">=</button>  
+        <button type="button" class="operator-item">*</button>
+        <button type="button" class="operator-item">/</button>
+        <button type="button" class="operator-item" id="ac" onclick="javascript: ac ();">AC</button>  
+        <!-- <div class="operator-item">7</div>
+        <div class="operator-item">8</div>
+        <div class="operator-item">9</div>   -->
+      </div>
+</body>
+</html> 

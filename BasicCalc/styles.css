@@ -1,0 +1,50 @@
+.toprow {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    max-width: 600px;
+}
+.screen {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    color:rgb(98, 98, 98);
+    text-align: center;
+    font-style: italic;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    background-color: #2196F3;
+    padding: 10px;
+    max-width: 600px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+
+  }
+
+  .operators {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    max-width: 600px;
+  }
+  .operator-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+
+  }
